@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+</head>
+<body>
+<div id="root"></div>
+<script src="https://unpkg.com/flowbite@1.5.3/dist/datepicker.js"></script>
+<script>
+  var e = React.createElement;
+  var Router = ReactRouterDOM.BrowserRouter;
+  var Routes = ReactRouterDOM.Routes;
+  var Route = ReactRouterDOM.Route;
+
+  ReactDOM.render(
+    (
+      e(Router, null, (
+        e(Routes, null, (
+          e(Route, {
+            element: e('div', null, 'Hello, React Router!')
+          })
+        ))
+      ))
+    ),
+    document.getElementById('root')
+  );
+  </script>
+</body>
+</html>

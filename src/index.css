@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+  height: 100%;
+}
+
+.Gradient {
+  background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+}
+
+.Button {
+  @apply relative overflow-hidden duration-500 before:absolute before:-z-10 before:animate-spin
+}
+
+.text-9xl{
+  font-size: 14rem;
+  }
+  @media(max-width: 645px){
+  .text-9xl{
+  font-size: 5.75rem;
+  }
+  .text-6xl{
+  font-size: 1.75rem;
+  }
+  .text-2xl {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  }
+  .py-8 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  }
+  .px-6 {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  }
+  .mr-6{
+  margin-right: 0.5rem;
+  }
+  .px-12 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
+  }
+
+  p,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Helvetica';
+  }

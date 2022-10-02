@@ -1,0 +1,46 @@
+// {
+//   "compilerOptions": {
+//   "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//   ],
+//   "outDir": "./dist/",
+//   "sourceMap": true,
+//   "noImplicitAny": true,
+//   "module": "esnext", // add this line
+//   // "module": "es6",
+//   "target": "es5",
+//   "jsx": "react",
+//   "allowJs": true,
+//   "moduleResolution": "node",
+//   "allowSyntheticDefaultImports":true
+//   }
+// }
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
